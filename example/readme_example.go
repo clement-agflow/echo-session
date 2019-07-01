@@ -1,9 +1,11 @@
 package main
 
 import (
-	"github.com/ipfans/echo-session"
-	"github.com/labstack/echo"
-	"github.com/labstack/echo/middleware"
+	_ "github.com/ipfans/echo-session"
+	"github.com/labstack/echo/v4"
+	"github.com/labstack/echo/v4/middleware"
+
+	session "github.com/agflow/echo-session"
 )
 
 func main() {
